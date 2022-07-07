@@ -39,7 +39,7 @@ def number_to_short_month_name(month):
     calendar = ["January","February", "March", 
     "April", "May", "June", "July", "August", 
     "September", "October", "November", "December"]
-    return calendar[month-1]
+    return calendar[month-1][:3]
 
 
 
